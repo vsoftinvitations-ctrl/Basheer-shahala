@@ -14,9 +14,8 @@ Wedding Invitation website for **Nadeer & Shahala**
 
 ### Celebrations & Schedule
 - **House Warming:** 25th December 2026 (Friday)
-- **Wedding Ceremony:** 26th December 2026 (Saturday), 4:00 PM
+- **Wedding Reception:** 26th December 2026 (Saturday), 4:00 PM
   - **Venue:** Groom's Residence, Koodali, Kannur
-- **Reception:** 27th December 2026 (Sunday)
 
 ### Invitation Message
 Request the honour of your esteemed presence and blessings with family on the auspicious occasion of the marriage of our Son.

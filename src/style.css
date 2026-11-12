@@ -921,10 +921,13 @@ body.petals-active #rose-petals-canvas {
   text-align: center;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 600px) {
   .functions-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 22px;
   }
 }
 

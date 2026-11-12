@@ -116,33 +116,33 @@ if (app) {
       </section>
 
       <section class="alt"><div class="wrap">
-        <p class="label r">The wedding ceremony</p>
+        <p class="label r">Wedding Reception</p>
         <div class="daynum r">${D.num}</div>
         <div class="month r">${D.month.toUpperCase()}</div>
         <div class="day r" style="margin-top:10px">${D.day}</div>
         <div class="rule line-x r"></div>
-        <div class="time r">Ceremony Time: ${W.ceremony.time}</div>
+        <div class="time r">Reception Time: ${W.ceremony.time}</div>
         ${renderCountdown()}
       </div></section>
 
-      <!-- Main Wedding Ceremony Section -->
+      <!-- Main Wedding Reception Section -->
       <section><div class="wrap">
-        <p class="label r">Wedding Ceremony</p>
+        <p class="label r">Reception Details</p>
         <div class="r">${pin}</div>
         <h2 class="big r">${W.ceremony.venue}</h2>
         <div class="event-date-badge r">${W.ceremony.day} &bull; ${W.ceremony.date}</div>
-        <div class="time r" style="margin-top:12px;font-size:clamp(1.2rem,4vw,1.5rem);color:var(--gold)">Time: ${W.ceremony.time}</div>
+        <div class="time r" style="margin-top:12px;font-size:clamp(1.2rem,4vw,1.5rem);color:var(--gold)">Reception Time: ${W.ceremony.time}</div>
         <p class="small r" style="margin-top:10px;font-size:1.05rem;line-height:1.7;color:var(--mute)">${W.ceremony.address.join('<br>')}</p>
         <div style="margin-top:28px" class="r">
           <a class="btn" href="${W.ceremony.map}" target="_blank" rel="noopener noreferrer">View Location on Google Maps</a>
         </div>
       </div></section>
 
-      <!-- Other Functions Section -->
-      <section class="alt"><div class="wrap" style="max-width:820px">
+      <!-- Schedule of Celebrations Section -->
+      <section class="alt"><div class="wrap" style="max-width:720px">
         <p class="label r">Schedule of Celebrations</p>
-        <h2 class="big r" style="margin-bottom:8px">Other Functions</h2>
-        <p class="small r" style="color:var(--mute);margin-bottom:24px">Join us in celebrating every moment of this blessed journey</p>
+        <h2 class="big r" style="margin-bottom:8px">Celebrations</h2>
+        <p class="small r" style="color:var(--mute);margin-bottom:24px">Join us in celebrating this blessed journey</p>
         <div class="functions-grid r">
           <div class="function-card">
             <div>
@@ -156,18 +156,9 @@ if (app) {
           <div class="function-card featured">
             <div>
               <span class="event-date-badge">26 Dec 2026</span>
-              <h3 class="function-title">Wedding Ceremony</h3>
+              <h3 class="function-title">Reception</h3>
               <div class="function-date">Saturday</div>
               <div class="function-time" style="color:var(--gold);font-weight:600">4:00 PM</div>
-            </div>
-            <p class="function-venue">Groom's Residence<br>Koodali, Kannur</p>
-          </div>
-
-          <div class="function-card">
-            <div>
-              <span class="event-date-badge">27 Dec 2026</span>
-              <h3 class="function-title">Reception</h3>
-              <div class="function-date">Sunday</div>
             </div>
             <p class="function-venue">Groom's Residence<br>Koodali, Kannur</p>
           </div>
