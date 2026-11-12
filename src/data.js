@@ -18,11 +18,13 @@ export const W = {
     iso: "2026-12-26T16:00:00+05:30"
   },
   ceremony: {
-    title: "Wedding Reception",
+    title: "Wedding & Reception",
     venue: "Groom's Residence",
     location: "Koodali, Kannur",
     fullVenue: "Groom's Residence, Koodali, Kannur",
-    time: "4:00 PM",
+    weddingTime: "4:00 PM",
+    receptionTime: "6:00 PM onwards",
+    time: "Wedding: 4:00 PM • Reception: 6:00 PM onwards",
     date: "26 December 2026",
     day: "Saturday",
     address: [
@@ -41,12 +43,14 @@ export const W = {
       badge: "Friday • 25 Dec 2026"
     },
     {
-      title: "Wedding Reception",
+      title: "Wedding & Reception",
       date: "26 December 2026",
       day: "Saturday",
-      time: "4:00 PM",
+      weddingTime: "4:00 PM",
+      receptionTime: "6:00 PM onwards",
+      time: "Wedding: 4:00 PM | Reception: 6:00 PM onwards",
       venue: "Groom's Residence, Koodali, Kannur",
-      badge: "Saturday • 26 Dec 2026 • 4:00 PM"
+      badge: "Saturday • 26 Dec 2026"
     }
   ],
   parents: {
