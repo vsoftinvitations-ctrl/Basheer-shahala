@@ -256,8 +256,8 @@ body.preloader-active #app>*:not(#wedding-preloader) {
 .script-text {
   display: inline-block;
   font-family: "Brittany Signature", "Cormorant Garamond", cursive;
-  color: #FFFDF8;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(235, 205, 130, 0.75), 0 0 38px rgba(212, 175, 55, 0.45);
+  color: #1a140e;
+  text-shadow: none;
   letter-spacing: 0.02em;
   white-space: nowrap;
   padding: 0.15em 0.4em;
@@ -804,15 +804,28 @@ body.petals-active #rose-petals-canvas {
   }
 }
 
-/* Intro script names ampersand spacing */
+/* Intro script names styling — Rich dark color */
+.intro-names {
+  color: #1a140e;
+}
+
+.intro-names .script-text {
+  color: #1a140e !important;
+  text-shadow: none !important;
+  font-weight: 500;
+}
+
 .intro-names .script-amp {
   margin: clamp(20px, 4.8vw, 32px) 0 clamp(10px, 2.5vw, 18px);
   overflow: visible;
 }
 
 .intro-names .script-amp .amp {
+  color: #1a140e !important;
+  text-shadow: none !important;
   margin: 0;
   line-height: 1;
+  font-weight: 500;
 }
 
 /* The Couple section styles */

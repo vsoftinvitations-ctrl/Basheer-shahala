@@ -51,7 +51,7 @@ if (app) {
     <!-- 1. EXCLUSIVE TAP TO OPEN COVER SECTION -->
     <section id="hero" class="flex" aria-label="Tap to Open Invitation">
       <div class="hero-bg">
-        <img src="/couple.jpg" alt="${W.groom} &amp; ${W.bride}" decoding="async">
+        <img src="${PHOTOS.hero}" alt="${W.groom} &amp; ${W.bride}" decoding="async">
       </div>
       <div class="hero-overlay"></div>
       <div class="hero-border"></div>

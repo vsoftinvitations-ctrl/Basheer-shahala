@@ -103,6 +103,7 @@ export const W = {
 };
 
 export const PHOTOS = {
+  hero: "/assets/gllry3 copy.jpeg",
   a: "/assets/gllry.jpeg",
   b: "/assets/gllry3.jpeg",
   gallery: [
