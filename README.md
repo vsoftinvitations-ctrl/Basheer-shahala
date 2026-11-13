@@ -1,6 +1,6 @@
-# NADEER & SHAHALA Wedding Invitation
+# NADEER & SHAHALA Nikkah Invitation
 
-Wedding Invitation website for **Nadeer & Shahala**  
+Nikkah & Reception Invitation website for **Nadeer & Shahala**  
 **إن شاء الله**
 
 ### Couple & Families
@@ -14,7 +14,7 @@ Wedding Invitation website for **Nadeer & Shahala**
 
 ### Celebrations & Schedule
 - **House Warming:** 25th December 2026 (Friday)
-- **Wedding & Reception:** 26th December 2026 (Saturday) - Wedding: 4:00 PM | Reception: 6:00 PM onwards
+- **Nikkah & Reception:** 26th December 2026 (Saturday) - Nikkah: 4:00 PM | Reception: 6:00 PM onwards
   - **Venue:** Groom's Residence, Koodali, Kannur
 
 ### Invitation Message

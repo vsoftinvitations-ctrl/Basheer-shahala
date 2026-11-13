@@ -20,7 +20,7 @@ export function renderPreloader(customConfig = {}) {
   const bgImg = customConfig.bgImage || BG_IMAGE_URL;
 
   return `
-    <div id="wedding-preloader" class="wedding-preloader" role="dialog" aria-modal="true" aria-label="Wedding Invitation Preloader">
+    <div id="wedding-preloader" class="wedding-preloader" role="dialog" aria-modal="true" aria-label="Nikkah Invitation Preloader">
       <!-- Fullscreen Background Image with Ken Burns effect -->
       <div class="preloader-bg-media">
         <img src="${bgImg}" alt="${name1} &amp; ${name2}" class="preloader-bg-img" />
@@ -39,7 +39,7 @@ export function renderPreloader(customConfig = {}) {
       <div class="preloader-gate-wrapper" id="preloader-gate-wrapper">
         <div class="preloader-gate-center">
           <div class="preloader-gate-badge">
-            <span class="preloader-tagline">WEDDING INVITATION</span>
+            <span class="preloader-tagline">NIKKAH INVITATION</span>
           </div>
           <div class="preloader-gate-bottom">
             <button class="preloader-open-pill-btn" id="preloader-enter-btn" aria-label="Tap to Open Invitation">
@@ -51,7 +51,7 @@ export function renderPreloader(customConfig = {}) {
       <!-- Center Handwriting Script Animation -->
       <div class="preloader-content" id="preloader-content-box">
         <div class="preloader-top-badge">
-          <span class="preloader-tagline">WEDDING INVITATION</span>
+          <span class="preloader-tagline">NIKKAH INVITATION</span>
         </div>
         <div class="preloader-script-container" id="preloader-script-box">
           <!-- Line 1: First Name (Nadeer) -->

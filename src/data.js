@@ -18,13 +18,14 @@ export const W = {
     iso: "2026-12-26T16:00:00+05:30"
   },
   ceremony: {
-    title: "Wedding & Reception",
+    title: "Nikkah & Reception",
     venue: "Groom's Residence",
     location: "Koodali, Kannur",
     fullVenue: "Groom's Residence, Koodali, Kannur",
     weddingTime: "4:00 PM",
+    nikkahTime: "4:00 PM",
     receptionTime: "6:00 PM onwards",
-    time: "Wedding: 4:00 PM • Reception: 6:00 PM onwards",
+    time: "Nikkah: 4:00 PM • Reception: 6:00 PM onwards",
     date: "26 December 2026",
     day: "Saturday",
     address: [
@@ -43,12 +44,13 @@ export const W = {
       badge: "Friday • 25 Dec 2026"
     },
     {
-      title: "Wedding & Reception",
+      title: "Nikkah & Reception",
       date: "26 December 2026",
       day: "Saturday",
       weddingTime: "4:00 PM",
+      nikkahTime: "4:00 PM",
       receptionTime: "6:00 PM onwards",
-      time: "Wedding: 4:00 PM | Reception: 6:00 PM onwards",
+      time: "Nikkah: 4:00 PM | Reception: 6:00 PM onwards",
       venue: "Groom's Residence, Koodali, Kannur",
       badge: "Saturday • 26 Dec 2026"
     }
@@ -88,7 +90,7 @@ export const W = {
     phone: "8590749578",
     formatted: "+91 85907 49578",
     tel: "tel:+918590749578",
-    whatsapp: "https://wa.me/918590749578?text=Warmest%20congratulations%20on%20the%20wedding%20of%20Nadeer%20and%20Shahala!"
+    whatsapp: "https://wa.me/918590749578?text=Warmest%20congratulations%20on%20the%20nikkah%20of%20Nadeer%20and%20Shahala!"
   },
   tagline: "A celebration of love, faith & togetherness",
   quotes: [

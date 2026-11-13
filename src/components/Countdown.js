@@ -11,7 +11,7 @@ const WEDDING_TARGET_TIME = new Date('2026-12-26T16:00:00+05:30').getTime();
 
 export function renderCountdown() {
   return `
-    <div class="countdown-container r" id="wedding-countdown" role="timer" aria-label="Countdown to Wedding">
+    <div class="countdown-container r" id="wedding-countdown" role="timer" aria-label="Countdown to Nikkah">
       <div class="countdown-item">
         <span class="countdown-num" id="cd-days">--</span>
         <span class="countdown-label">Days</span>
@@ -54,7 +54,7 @@ export function initCountdown(targetTimestamp = WEDDING_TARGET_TIME) {
       elSeconds.textContent = '00';
       const container = document.getElementById('wedding-countdown');
       if (container) {
-        container.setAttribute('aria-label', 'The Wedding Celebration Has Begun!');
+        container.setAttribute('aria-label', 'The Nikkah Celebration Has Begun!');
       }
       return;
     }
